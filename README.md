@@ -6,16 +6,16 @@ An Instagram-style social media app built with React Native (Expo) and TypeScrip
 ![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue)
 ![Expo](https://img.shields.io/badge/Expo-~54.0-000020)
 
-## ✨ Features
+## Features
 
-### 🏠 Home Feed
+### Home Feed
 - Instagram-style posts feed with images
 - Like, comment, and share functionality
 - User avatars with pink accent borders
 - Real-time like counter
 - Timestamp for each post
 
-### 💬 Messages (DM)
+### Messages (DM)
 - Conversation list with last message preview
 - Full chat screen with message history
 - Message bubbles (pink for sent, gray for received)
@@ -23,20 +23,20 @@ An Instagram-style social media app built with React Native (Expo) and TypeScrip
 - Keyboard-aware design
 - Navigation between conversation list and individual chats
 
-### ➕ Add Post
+### Add Post
 - Image selection interface
 - Caption input
 - Share button to create posts
 - Demo implementation (frontend only)
 
-### ✨ Ask AI
+### Ask AI
 - AI assistant interface
 - Question input with multi-line support
 - Simulated AI responses
 - Suggested questions
 - Clear/reset functionality
 
-### 👤 Profile
+### Profile
 - User profile with avatar and stats
 - Posts, followers, following counts
 - Bio section
@@ -44,14 +44,14 @@ An Instagram-style social media app built with React Native (Expo) and TypeScrip
 - 3x3 posts grid gallery
 - Pink-themed UI elements
 
-## 🎨 Design
+## Design
 
 - **Theme Color**: Pink (#E91E63) and Light Pink (#F8BBD0)
 - **UI Style**: Instagram-inspired with modern, clean interface
 - **Navigation**: Bottom tab navigation with 5 main screens
 - **Icons**: SF Symbols for iOS-style icons
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -83,7 +83,7 @@ An Instagram-style social media app built with React Native (Expo) and TypeScrip
    - **Android**: Press `a` to open in Android emulator
    - **Physical Device**: Scan QR code with Expo Go app
 
-## 📱 App Structure
+## App Structure
 
 ```
 pocket-painter/
@@ -120,7 +120,7 @@ pocket-painter/
 └── package.json
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: React Native with Expo
 - **Language**: TypeScript
@@ -129,7 +129,7 @@ pocket-painter/
 - **Icons**: @expo/vector-icons (Ionicons)
 - **State Management**: React hooks (useState, useRef)
 
-## 📦 Key Dependencies
+## Key Dependencies
 
 ```json
 {
@@ -142,7 +142,7 @@ pocket-painter/
 }
 ```
 
-## 🎯 Features Overview
+## Features Overview
 
 | Feature | Status | Description |
 |---------|--------|-------------|
@@ -154,7 +154,7 @@ pocket-painter/
 | Pink Theme | ✅ | Cohesive pink color scheme |
 | TypeScript | ✅ | 100% TypeScript coverage |
 
-## 📝 Mock Data
+## Mock Data
 
 The app uses mock data for demonstration:
 - 3 sample conversations with message history
@@ -163,7 +163,7 @@ The app uses mock data for demonstration:
 
 In production, these would connect to a backend API.
 
-## 🎨 Customization
+## Customization
 
 ### Changing Theme Colors
 
@@ -182,7 +182,7 @@ Edit `src/data/posts.ts` to add new posts to the feed.
 
 Edit `src/data/conversations.ts` to add new DM conversations.
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 - [ ] Backend integration with Firebase/Supabase
 - [ ] Real image upload functionality
@@ -194,17 +194,17 @@ Edit `src/data/conversations.ts` to add new DM conversations.
 - [ ] Dark mode support
 - [ ] Search functionality
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👥 Author
+## Author
 
 **Alice Gurung**
 - GitHub: [@alyyis](https://github.com/alyyis)
 - Email: alicegurung88@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Design inspired by Instagram
 - Images from [Unsplash](https://unsplash.com)
